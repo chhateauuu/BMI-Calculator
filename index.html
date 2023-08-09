@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <title>BMI Calculator</title>
+
+</head>
+<body>
+    <div class="container">
+        <h1>BMI Calculator</h1>
+
+        <div class="input-group">
+            <label for="height">Height:</label>
+            <input type="number" id="height-value" placeholder="Enter your height">
+            <select id="height-unit">
+                <option value="cm">Centimeters (cm)</option>
+                <option value="m">Meters (m)</option>
+                <option value="in">Inches (in)</option>
+            </select>
+        </div>
+        <div class="input-group">
+            <label for="weight">Weight:</label>
+            <input type="number" id="weight-value" placeholder="Enter your weight">
+            <select id="weight-unit">
+                <option value="kg">Kilograms (kg)</option>
+                <option value="lb">Pounds (lb)</option>
+            </select>
+        </div>
+
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        
+<p id="result"></p>
+
+<div class="bmi-scale">
+    <div class="bmi-category underweight">Underweight</div>
+    <div class="bmi-category normal">Normal</div>
+    <div class="bmi-category overweight">Overweight</div>
+    <div class="bmi-category obese">Obese</div>
+    <div class="bmi-category very-obese">Very Obese</div>
+</div>
+
+
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
