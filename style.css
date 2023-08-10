@@ -11,10 +11,9 @@ body {
     background: linear-gradient(90deg, rgba(53, 53, 130, 0.64) 0%, rgba(53, 53, 130, 1) 0%, rgba(112, 128, 144, 1) 89%);
     padding: 30px;
     border-radius: 8px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Adding depth using shadow */
-    width: 80%;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); 
     max-width: 500px;
-    transition: transform 0.3s ease-in-out; /* subtle movement on hover */
+    transition: transform 0.3s ease-in-out; 
 }
 
 .container:hover {
@@ -35,7 +34,7 @@ h1 {
 label {
     display: block;
     margin-bottom: 10px;
-    color: white; /* Setting label text to white for better contrast */
+    color: white; 
 }
 
 input, select {
@@ -45,13 +44,13 @@ input, select {
     border-radius: 5px;
     background: linear-gradient(90deg, rgba(53, 53, 130, 0.64) 0%, rgba(53, 53, 130, 1) 0%, rgba(112, 128, 144, 1) 89%);
     color: white;
-    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* smooth effects on focus and hover */
-    outline: none; /* remove browser default outline */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; 
+    outline: none; 
 }
 
 input:focus, select:focus {
-    box-shadow: 0 0 10px 2px rgba(83,83,130,0.5); /* subtle glow on focus */
-    transform: scale(1.02); /* subtle zoom on focus */
+    box-shadow: 0 0 10px 2px rgba(83,83,130,0.5); 
+    transform: scale(1.02); 
 }
 
 button {
@@ -64,7 +63,7 @@ button {
     color: white;
     font-size: 16px;
     cursor: pointer;
-    transition: background-color 0.3s ease-in-out; /* smooth color change on hover */
+    transition: background-color 0.3s ease-in-out; 
 }
 
 button:hover {
@@ -75,7 +74,7 @@ p#result {
     margin-top: 20px;
     text-align: center;
     font-size: 18px;
-    color: white; /* Making the result text white */
+    color: white; 
 }
 
 .bmi-scale {
@@ -90,11 +89,11 @@ p#result {
     padding: 10px;
     border-radius: 5px;
     color: white;
-    transition: transform 0.3s ease-in-out; /* subtle movement on hover */
+    transition: transform 0.3s ease-in-out; 
 }
 
 .bmi-category:hover {
-    transform: scale(1.1); /* subtle zoom on hover */
+    transform: scale(1.1); 
 }
 
 .underweight {
@@ -134,9 +133,6 @@ select option {
     color: black;
 }
 
-/* Existing Styles ... */
-
-/* Responsive Styles for Tablets and Phones */
 
 @media only screen and (max-width: 1024px) {
     .container {
@@ -149,29 +145,29 @@ select option {
         width: 95%;
     }
     h1 {
-        font-size: 24px; /* Slightly reducing font-size for better fit */
-        margin-bottom: 20px; /* Reducing the margin for space efficiency */
+        font-size: 24px; 
+        margin-bottom: 20px; 
     }
     .input-group, .result-group {
         margin-bottom: 15px;
     }
     label {
-        font-size: 14px; /* Reducing font size for labels */
-        margin-bottom: 8px; /* Reducing space between label and input */
+        font-size: 14px; 
+        margin-bottom: 8px; 
     }
     input, select, button {
-        padding: 8px; /* Adjusting padding for space efficiency */
-        font-size: 14px; /* Slightly reducing font size */
+        padding: 8px; 
+        font-size: 14px; 
     }
     p#result {
         font-size: 16px;
         margin-top: 15px;
     }
     .bmi-scale {
-        flex-direction: column; /* Changing from row to column for better fit on small screens */
+        flex-direction: column; 
     }
     .bmi-category {
-        width: 100%; /* Taking full width on smaller screens */
-        margin-bottom: 10px; /* Spacing between categories */
+        width: 100%; 
+        margin-bottom: 10px; 
     }
 }
