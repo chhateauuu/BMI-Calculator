@@ -18,7 +18,7 @@ Experience the application in action: [Aarya's BMI Calculator](https://aarya-bmi
 4. Click on "Calculate" to view your BMI and the corresponding message.
 
 ## Feedback & Contributions
-Feel free to raise an issue or submit a pull request if you find any bugs or have suggestions to enhance the application. Contributions are always welcome!
+Feel free to raise an issue or submit a pull request if you find any bugs or have suggestions to enhance the application.
 
 ## License
 This project is open-source and available under the MIT License.
